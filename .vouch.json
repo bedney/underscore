@@ -2,7 +2,7 @@
   "dir": "/",
   "default": "index.html",
   "run": [
-    "phantomjs test/vendor/runner.js test/index.html?noglobals=true"
+    "'phantomjs test/vendor/runner.js test/index.html?noglobals=true'"
   ],
   "notify": [
     "bedney@technicalpursuit.com"
