@@ -2,7 +2,8 @@
   "dir": "/",
   "default": "index.html",
   "run": [
-    "phantomjs test/vendor/runner.js test/index.html?noglobals=true"
+    "npm install",
+    "npm test"
   ],
   "notify": [
     "bedney@technicalpursuit.com"
